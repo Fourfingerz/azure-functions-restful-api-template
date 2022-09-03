@@ -25,7 +25,12 @@ const data = {
       id: '50',
       name: 'Rocky mountain vacation',
       description: 'Long and relaxing hikes through the mountains'
-    }
+    },
+    {
+      id: '60',
+      name: 'Tahiti',
+      description: 'Surfing!'
+    },
   ]
 };
 
