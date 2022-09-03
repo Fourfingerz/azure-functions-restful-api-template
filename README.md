@@ -37,7 +37,7 @@ is the stand-in for our ExpressJS server. Notice I have commented out the Expres
 
 is what ties the API all together and exports our API as a package.
 
-`vacations-get`, `vacations-post`, `vacations-put`, `vacations-delete` directories imports the `services` directory and is each of our API calls now mapped to an Azure function call with an Azure built in `httpTrigger` from it's standard library. 
+`vacations-get`, `vacations-post`, `vacations-put`, `vacations-delete` directories imports the `vacationService` export from `/services/index/ts` and is each of our API calls now mapped to an Azure function call with an Azure built in `httpTrigger` from it's standard library. 
 
 ___
 
